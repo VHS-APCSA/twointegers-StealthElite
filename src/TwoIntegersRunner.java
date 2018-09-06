@@ -1,4 +1,10 @@
-
-public class TwoIntegersRunner {
+import java . util . Scanner;
+public class TwoIntegersRunner 
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System . in);
+		
+	}
 
 }

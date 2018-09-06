@@ -28,9 +28,23 @@ public class TwoIntegers
 	{
 		return num2;
 	}
+	public TwoIntegers multiply(TwoIntegers twoint)
+	{
+		int num1 = this . num1 * twoint . getNum1();
+		int num1 = this . num1 * twoint . getNum2();
+		TwoIntegers result = new TwoIntegers(num1 , num2);
+		return result; 
+	}
+	public double toDecimal;
+	{
+		double result = (double) num1 / num2;
+		return result;
+	}
+	@Override
+	public String toString()
+	{
+		return num1 + " / " + num2;
+	}
 	
-	
-	
-	
-
 }
+
